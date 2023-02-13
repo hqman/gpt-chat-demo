@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["hqman <hqmank@gmail.com>"]
 readme = "README.md"
-packages = [{include = "st_gpt_demo"}]
+packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
