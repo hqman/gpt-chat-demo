@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "st_gpt_demo"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 openai = "^0.26.5"
 streamlit = "^1.18.1"
 streamlit-chat = "^0.0.2.1"
