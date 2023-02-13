@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "st-gpt-demo"
+version = "0.1.0"
+description = ""
+authors = ["hqman <hqmank@gmail.com>"]
+readme = "README.md"
+packages = [{include = "st_gpt_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.26.5"
+streamlit = "^1.18.1"
+streamlit-chat = "^0.0.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
