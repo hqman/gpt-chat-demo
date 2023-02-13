@@ -40,7 +40,7 @@ if 'past' not in st.session_state:
 
 
 def get_text():
-    input_text = st.text_input("你:输入你的问题 ", "", key="input")
+    input_text = st.text_input("输入你的问题:", "", key="input")
     return input_text
 
 
