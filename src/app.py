@@ -18,7 +18,7 @@ if key_input:
 
 
 def generate_response(content):
-    prompt = "你是 ChatGPT, 一个由 OpenAI 训练的大型语言模型, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。\n请回答我下面的问题\nQ: " + content + "\nA: "
+    prompt = "你是 ChatGPT, 一个由 OpenAI 训练的大型语言模型llm, 你旨在回答并解决人们的任何问题，并且可以使用多种语言与人交流。\n请回答我下面的问题\nQ: " + content + "\nA: "
     completions = openai.Completion.create(
         engine="text-davinci-003",
         prompt=prompt,
